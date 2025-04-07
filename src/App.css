@@ -3,6 +3,7 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+  background-color: hsl(220deg 13% 13%);
 }
 
 .App-logo {
@@ -43,4 +44,69 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.class-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 5px auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+}
+
+.class-item.eligible {
+  background-color: #d4edda;
+  color: #155724;
+  border-color: #c3e6cb;
+}
+
+.class-item.ineligible {
+  background-color: #f8d7da;
+  color: #721c24;
+  border-color: #f5c6cb;
+}
+
+.App-section.attribute-list {
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #444;
+  border-radius: 8px;
+  background-color: hsl(220deg 13% 18%);
+  color: white;
+  max-width: 600px;
+  text-align: center;
+}
+
+.App-section.attribute-list h2 {
+  margin-bottom: 15px;
+}
+
+.App-section.attribute-list div {
+  display: grid;
+  grid-template-columns: 2fr 1fr auto auto;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.App-section.attribute-list span {
+  text-align: left;
+}
+
+.App-section.attribute-list button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.App-section.attribute-list button:hover {
+  background-color: #0056b3;
 }
