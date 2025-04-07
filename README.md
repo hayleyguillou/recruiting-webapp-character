@@ -1,56 +1,11 @@
-# recruiting-webapp-character
-React coding test
+# Hayley Guillou - Take Home Assignment
 
-# Create a repository from this template
-- Click on `Use this template` dropdown on this repo page.
-- select `Create a new repository`
-- Under Owner, use your personal account and **NOT** `policyme-recruiting`
-- Write a name of the repo as `recruiting-webapp-character`
-- Select `Public` as visibility
-- Click `Create repository`
+Completed requirements 1-5, 7
 
-# Run the application
-- Clone the newly created repo locally
-- Run the following command to install node modules
-```
-npm i
-```
-- Run the following command to start web app
-```
-npm start
-```
-
-# Typescript
-
-Typescript has been added to this project. It is setup to be optional. You are not required to use it. It has been added for those who prefer developing with Typescript over Javascript.
-
-# Submitting your code
-- Make sure your app can be set up and run via the following two commands: `npm i` and `npm start`
-- Reply to the coding exercise email you received from our team with the link to this new public repository.
-
-# Instructions
-
-You will build a small web app around creating a character sheet for a tabletop RPG game like DnD, Pathfinder etc.
-
-Find the requirements below, but it’s not expected that all of them will be complete. Please work in top-down order as best you can, unless you feel the need to move on because you’re stuck etc.
-
-The goal is to see some of your code in the context of this problem, if things look good we’ll schedule a followup meeting to discuss the implementation details, some design choices you made, how we might extend this further, and some other technical questions.
-
-Please spend NO MORE THAN 2 hours on this. We don’t expect all requirements to be completed, and are more interested in your approach to the project and how you’re solving problems than the output at the end of this 2-hour limit.
-
-Please view this short video of a partial implementation of the features below to give you an idea of what we’re asking for: https://www.loom.com/share/3afa00385d2d4fbc9720b88360036a54
-
-Styling is not important, so long as the JS functionality is present and usable.
-
-The 2 hours begins once you've read these instructions and run the application.
-
-## What is a character sheet?
-
-Character sheets are defined by the following high-level concepts
-- Attributes: This represents a character's raw abilities 
-- Attribute Modifier: calculated using the related Attribute, this value affects a character's skills
-- Skills: A character's ability to perform a specific action
-
+## Next steps:
+- Break sections down into components (Displaying Attributes, Classes, Skills) and separate test files per component
+- Create Character component for loading specific character profiles
+- Fix CSS styling
 
 
 ## Requirements
